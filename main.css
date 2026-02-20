@@ -42,10 +42,19 @@ html {
     flex: 1;
     padding: 0 20px;
 }
-
+.search-button {
+    padding: 8px 5px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', sans-serif;
+}
 .search-container {
     display: flex;
     justify-content: flex-end;
+    box : shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .navbar a:hover {
